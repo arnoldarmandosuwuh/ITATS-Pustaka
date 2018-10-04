@@ -43,7 +43,7 @@ export default class Home extends React.Component {
                   <Image source={{ uri: 'https://assets-a1.kompasiana.com/items/album/2015/10/28/perpustakaan-563007a587afbd8505ca9e92.jpg' }} style={{ height: 200, width: 400, flex: 1, padding: 30 }} />
                   <Text>
                     Selamat datang di Perpustakaan online
-                      Powered By SI ITATS
+                      Powered By SI Institut Teknologi Adhi Tama Surabaya
                 </Text>
                 </Body>
               </CardItem>
