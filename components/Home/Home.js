@@ -23,7 +23,7 @@ export default class Home extends React.Component {
             </Button>
           </Left>
           <Body>
-            <Title>Perpustakaan online</Title>
+            <Title>Perpustakaan Online</Title>
           </Body>
         </Header>
         <Content style={{ backgroundColor: '#ffdab9' }}>
