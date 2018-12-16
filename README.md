@@ -8,12 +8,14 @@ Copyright - Arnold Armando Suwuh
 4. npm install 
 5. react-native link
 # How to use
-1. c
-1. Upload Database from /DB/itats_pustaka.sql to you hosting
-2. Open /PHP/itats_pustaka.php & itats_pustaka_view.json
-3. Change the sql connection from both files
-4. Upload the both PHP files to your hosting
-5. Change /Home/Add.js line 55 "axios.post('http://yourdomain/itats_pustaka.php', (myJson)"
-6. Change /Home/ListBook.js line 17 "return fetch('http://yourdomain/itats_pustaka.json')"
-7. Change /Home/ViewBook.js line 20 "return fetch('http://yourdomain/itats_pustaka.json')"
-8. Change /Home/Book.js line 19 "return fetch('http://yourdomain/itats_pustaka.json')"
+1. clone dengan git clone https://github.com/arnoldarmandosuwuh/ITATS-Pustaka.git atau download zip
+2. Install semua tools yang diperlukan
+3. Buat hosting untuk menyimpan database dan file api
+4. Import database dari /DB/itats_pustaka.sql ke database yang ada di hosting kalian
+5. Buka /PHP/itats_pustaka.php & itats_pustaka_view.json
+6. Ganti koneksi SQL sesuai dengan database yang sudah kalian buat di hosting
+7. Upload semua file PHP yang telah kalian edit tadi
+8. Change /Home/Add.js line 55 "axios.post('http://yourdomain/itats_pustaka.php', (myJson)"
+9. Change /Home/ListBook.js line 17 "return fetch('http://yourdomain/itats_pustaka.json')"
+10. Change /Home/ViewBook.js line 20 "return fetch('http://yourdomain/itats_pustaka.json')"
+11. Change /Home/Book.js line 19 "return fetch('http://yourdomain/itats_pustaka.json')"
