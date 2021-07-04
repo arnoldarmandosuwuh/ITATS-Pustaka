@@ -23,7 +23,7 @@ export default class Home extends React.Component {
             </Button>
           </Left>
           <Body>
-            <Title>Perpustakaan online</Title>
+            <Title>Perpustakaan Online</Title>
           </Body>
         </Header>
         <Content style={{ backgroundColor: '#ffdab9' }}>
@@ -42,7 +42,7 @@ export default class Home extends React.Component {
                 <Body>
                   <Image source={{ uri: 'https://assets-a1.kompasiana.com/items/album/2015/10/28/perpustakaan-563007a587afbd8505ca9e92.jpg' }} style={{ height: 200, width: 400, flex: 1, padding: 30 }} />
                   <Text>
-                    Selamat datang di Perpustakaan online
+                    Selamat Datang Di Perpustakaan Online
                       Powered By SI ITATS
                 </Text>
                 </Body>
